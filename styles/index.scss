@@ -358,8 +358,8 @@ button:hover {
 }
 .like {
   position: absolute;
-  right: 150px;
-  top: 25px;
+  right: 145px;
+  top: -5px;
   font-size: x-large;
   cursor: pointer;
   transition: color 0.3s ease;
@@ -389,7 +389,13 @@ button:hover {
 .menu:hover {
   color: $color_gold;
 }
-
+.small, small {
+  font-size: 80%;
+  font-weight: 400;
+  position: absolute;
+  top: 27px;
+  right: -12px;
+}
 // caruosel
 
 .svg-background {

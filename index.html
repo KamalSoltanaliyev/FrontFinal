@@ -79,7 +79,7 @@
         </div>
       </div>
     </header>
-    
+
     <nav>
       <div class="navbar">
         <div class="varkala">
@@ -178,128 +178,134 @@
           </div>
 
           <div class="like">
-            <i class="fa-regular fa-heart"></i>
+            <a href="wishlist.html">
+              <i class="fa-regular fa-heart"></i>
+              <small id="basketCount">0</small>
+            </a>
           </div>
+
           <div class="bag">
             <i class="fa-solid fa-bag-shopping"></i>
           </div>
           <div id="sidebar">
-            <div class="close-btn" onclick="closeNav()"><i class="fas fa-times"></i></div>
-              <!-- Add your sidebar content here -->
-              <a href="#">Varkala</a>
-              <a href="#">Home</a>
-              <a href="#">Link</a>
+            <div class="close-btn" onclick="closeNav()">
+              <i class="fas fa-times"></i>
             </div>
-            <div id="open-btn" onclick="openNav()"><i class="fas fa-bars"></i></div>
-          </div>  
-    
+            <!-- Add your sidebar content here -->
+            <a href="#">Varkala</a>
+            <a href="#">Home</a>
+            <a href="#">Link</a>
+          </div>
+          <div id="open-btn" onclick="openNav()">
+            <i class="fas fa-bars"></i>
+          </div>
         </div>
       </div>
     </nav>
 
     <!-- carousel -->
-    
-      <div class="carousel">
-        <div class="container-fluid">
-          <div class="carousel-container">
-            <div class="glide">
-              <div class="glide__track" data-glide-el="track">
-                <ul class="glide__slides">
-                  <li class="glide__slide">
-                    <div class="carousel-content">
-                      <p class="carText">TIME IS ALMOST UP</p>
-                      <h2>Design clocks on sale</h2>
-                      <button>START SHOPPING</button>
-                    </div>
-                    <div class="imagez">
-                      <svg
-                        class="custom-shape"
-                        viewBox="0 0 200 200"
-                        xmlns="http://www.w3.org/2000/svg"
-                      >
-                        <path
-                          fill="#E8DAFF"
-                          d="M53.4,-45.2C63.7,-29.6,62.8,-7.7,57.3,11.7C51.7,31.1,41.5,48.1,24.7,59.2C7.9,70.4,-15.5,75.6,-31.4,67.2C-47.2,58.8,-55.5,36.7,-58.8,15.4C-62.1,-5.9,-60.5,-26.4,-49.9,-42.1C-39.2,-57.8,-19.6,-68.6,1,-69.3C21.5,-70.1,43,-60.8,53.4,-45.2Z"
-                          transform="translate(100 100)"
-                        />
-                      </svg>
-                      <img
-                        class="carousel-img"
-                        src="https://demo.bootstrapious.com/varkala/1-2-1/img/product/clock-transparent.png"
-                        alt="Clock"
+
+    <div class="carousel">
+      <div class="container-fluid">
+        <div class="carousel-container">
+          <div class="glide">
+            <div class="glide__track" data-glide-el="track">
+              <ul class="glide__slides">
+                <li class="glide__slide">
+                  <div class="carousel-content">
+                    <p class="carText">TIME IS ALMOST UP</p>
+                    <h2>Design clocks on sale</h2>
+                    <button>START SHOPPING</button>
+                  </div>
+                  <div class="imagez">
+                    <svg
+                      class="custom-shape"
+                      viewBox="0 0 200 200"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <path
+                        fill="#E8DAFF"
+                        d="M53.4,-45.2C63.7,-29.6,62.8,-7.7,57.3,11.7C51.7,31.1,41.5,48.1,24.7,59.2C7.9,70.4,-15.5,75.6,-31.4,67.2C-47.2,58.8,-55.5,36.7,-58.8,15.4C-62.1,-5.9,-60.5,-26.4,-49.9,-42.1C-39.2,-57.8,-19.6,-68.6,1,-69.3C21.5,-70.1,43,-60.8,53.4,-45.2Z"
+                        transform="translate(100 100)"
                       />
-                    </div>
-                  </li>
-                  <li class="glide__slide">
-                    <div class="carousel-content">
-                      <p class="carText">OUR ALL-TIME FAVOURITES</p>
-                      <h2>Black & White</h2>
-                      <p>
-                        The bedding was hardly able to cover it and seemed ready
-                        to slide off any moment. His many legs, pit
-                      </p>
-                      <button>discover more</button>
-                    </div>
-                    <div class="imagez">
-                      <svg
-                        class="custom-shape"
-                        viewBox="0 0 200 200"
-                        xmlns="http://www.w3.org/2000/svg"
-                      >
-                        <path
-                          fill="#E8DAFF"
-                          d="M53.4,-45.2C63.7,-29.6,62.8,-7.7,57.3,11.7C51.7,31.1,41.5,48.1,24.7,59.2C7.9,70.4,-15.5,75.6,-31.4,67.2C-47.2,58.8,-55.5,36.7,-58.8,15.4C-62.1,-5.9,-60.5,-26.4,-49.9,-42.1C-39.2,-57.8,-19.6,-68.6,1,-69.3C21.5,-70.1,43,-60.8,53.4,-45.2Z"
-                          transform="translate(100 100)"
-                        />
-                      </svg>
-                      <img
-                        class="carousel-img"
-                        src="https://demo.bootstrapious.com/varkala/1-2-1/img/product/chair2-transparent.png"
-                        alt="Chair"
+                    </svg>
+                    <img
+                      class="carousel-img"
+                      src="https://demo.bootstrapious.com/varkala/1-2-1/img/product/clock-transparent.png"
+                      alt="Clock"
+                    />
+                  </div>
+                </li>
+                <li class="glide__slide">
+                  <div class="carousel-content">
+                    <p class="carText">OUR ALL-TIME FAVOURITES</p>
+                    <h2>Black & White</h2>
+                    <p>
+                      The bedding was hardly able to cover it and seemed ready
+                      to slide off any moment. His many legs, pit
+                    </p>
+                    <button>discover more</button>
+                  </div>
+                  <div class="imagez">
+                    <svg
+                      class="custom-shape"
+                      viewBox="0 0 200 200"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <path
+                        fill="#E8DAFF"
+                        d="M53.4,-45.2C63.7,-29.6,62.8,-7.7,57.3,11.7C51.7,31.1,41.5,48.1,24.7,59.2C7.9,70.4,-15.5,75.6,-31.4,67.2C-47.2,58.8,-55.5,36.7,-58.8,15.4C-62.1,-5.9,-60.5,-26.4,-49.9,-42.1C-39.2,-57.8,-19.6,-68.6,1,-69.3C21.5,-70.1,43,-60.8,53.4,-45.2Z"
+                        transform="translate(100 100)"
                       />
-                    </div>
-                  </li>
-  
-                  <li class="glide__slide">
-                    <div class="carousel-content">
-                      <p class="carText">OUR ALL-TIME FAVOURITES</p>
-                      <h2>Boxxez</h2>
-                      <p>
-                        The bedding was hardly able to cover it and seemes to
-                        slide off any moment. His many legs, pit
-                      </p>
-                      <button>DISCOVER MORE</button>
-                    </div>
-                    <div class="imagez">
-                      <svg
-                        class="custom-shape"
-                        viewBox="0 0 200 200"
-                        xmlns="http://www.w3.org/2000/svg"
-                      >
-                        <path
-                          fill="#E8DAFF"
-                          d="M53.4,-45.2C63.7,-29.6,62.8,-7.7,57.3,11.7C51.7,31.1,41.5,48.1,24.7,59.2C7.9,70.4,-15.5,75.6,-31.4,67.2C-47.2,58.8,-55.5,36.7,-58.8,15.4C-62.1,-5.9,-60.5,-26.4,-49.9,-42.1C-39.2,-57.8,-19.6,-68.6,1,-69.3C21.5,-70.1,43,-60.8,53.4,-45.2Z"
-                          transform="translate(100 100)"
-                        />
-                      </svg>
-                      <img
-                        class="carousel-img"
-                        src="https://demo.bootstrapious.com/varkala/1-2-1/img/product/box-transparent.png"
-                        alt="Box"
+                    </svg>
+                    <img
+                      class="carousel-img"
+                      src="https://demo.bootstrapious.com/varkala/1-2-1/img/product/chair2-transparent.png"
+                      alt="Chair"
+                    />
+                  </div>
+                </li>
+
+                <li class="glide__slide">
+                  <div class="carousel-content">
+                    <p class="carText">OUR ALL-TIME FAVOURITES</p>
+                    <h2>Boxxez</h2>
+                    <p>
+                      The bedding was hardly able to cover it and seemes to
+                      slide off any moment. His many legs, pit
+                    </p>
+                    <button>DISCOVER MORE</button>
+                  </div>
+                  <div class="imagez">
+                    <svg
+                      class="custom-shape"
+                      viewBox="0 0 200 200"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <path
+                        fill="#E8DAFF"
+                        d="M53.4,-45.2C63.7,-29.6,62.8,-7.7,57.3,11.7C51.7,31.1,41.5,48.1,24.7,59.2C7.9,70.4,-15.5,75.6,-31.4,67.2C-47.2,58.8,-55.5,36.7,-58.8,15.4C-62.1,-5.9,-60.5,-26.4,-49.9,-42.1C-39.2,-57.8,-19.6,-68.6,1,-69.3C21.5,-70.1,43,-60.8,53.4,-45.2Z"
+                        transform="translate(100 100)"
                       />
-                    </div>
-                  </li>
-                </ul>
-              </div>
+                    </svg>
+                    <img
+                      class="carousel-img"
+                      src="https://demo.bootstrapious.com/varkala/1-2-1/img/product/box-transparent.png"
+                      alt="Box"
+                    />
+                  </div>
+                </li>
+              </ul>
             </div>
           </div>
-          <div class="dotsContainer">
-            <div class="dot active" attr="0" onclick="switchImage(this)"></div>
-            <div class="dot" attr="1" onclick="switchImage(this)"></div>
-            <div class="dot" attr="2" onclick="switchImage(this)"></div>
-          </div>
+        </div>
+        <div class="dotsContainer">
+          <div class="dot active" attr="0" onclick="switchImage(this)"></div>
+          <div class="dot" attr="1" onclick="switchImage(this)"></div>
+          <div class="dot" attr="2" onclick="switchImage(this)"></div>
         </div>
       </div>
+    </div>
 
     <!-- main section with popular this week porducts -->
     <section class="main-section">
@@ -449,42 +455,50 @@
             </ul>
             <a href="#">ALL PRODUCTS</a>
           </div>
-
-          <div class="offers">
-            <div class="items">
+          <div id="productContainer1" class="offers">
+            <div class="items" data-id="1">
               <div class="product-image">
-                <div id="Fresh" class="label">Fresh</div>
+                <div id="label1" class="label">Fresh</div>
                 <div class="green-chair">
                   <img
-                  src="https://d19m59y37dris4.cloudfront.net/varkala/1-2-1/img/product/chair.jpg"
-                />
+                    src="https://d19m59y37dris4.cloudfront.net/varkala/1-2-1/img/product/chair.jpg"
+                  />
                 </div>
                 <div class="fav">
-                  <a href="#" class="fav-a">Add to card</a>
+                  <a href="#" class="fav-a">Add to cart</a>
                   <div>
-                    <a href="#"><i class="fa-regular fa-heart fav-i"></i></a>
+                    <a href="#"
+                      ><i
+                        class="fa-regular fa-heart fav-i cart-button"
+                        data-product-id="productContainer1"
+                      ></i
+                    ></a>
                     <a href="#"><i class="fa-solid fa-maximize fav-i"></i></a>
                   </div>
                 </div>
               </div>
               <div>
-                <h5><a href="#">Norwegg Chair</a></h5>
-                <p>$40.00</p>
+                <h5><a href="#">Norwegian Chair</a></h5>
+                <p class="price">$40.00</p>
               </div>
             </div>
-
-            <div class="items">
+            <div class="items" data-id="2">
               <div class="product-image">
                 <div class="book">
                   <img
-                  src="https://d19m59y37dris4.cloudfront.net/varkala/1-2-1/img/product/book.jpg"
-                />
+                    src="https://d19m59y37dris4.cloudfront.net/varkala/1-2-1/img/product/book.jpg"
+                  />
                 </div>
                 <div class="fav">
                   <div class="fav">
                     <a href="#" class="fav-a">Add to card</a>
                     <div>
-                      <a href="#"><i class="fa-regular fa-heart fav-i"></i></a>
+                      <a href="#"
+                        ><i
+                          class="fa-regular fa-heart fav-i cart-button"
+                          data-product-id="productContainer2"
+                        ></i
+                      ></a>
                       <a href="#"><i class="fa-solid fa-maximize fav-i"></i></a>
                     </div>
                   </div>
@@ -492,23 +506,26 @@
               </div>
               <div>
                 <h5><a href="#">Book</a></h5>
-                <p>$40.00</p>
+                <p class="price">$40.00</p>
               </div>
             </div>
-
-            <div class="items">
+            <div class="items" data-id="3">
               <div class="product-image">
-                <div id="Sale" class="label">Sale</div>
                 <div class="white-chair">
                   <img
-                  src="https://d19m59y37dris4.cloudfront.net/varkala/1-2-1/img/product/chair2.jpg"
-                />
+                    src="https://d19m59y37dris4.cloudfront.net/varkala/1-2-1/img/product/chair2.jpg"
+                  />
                 </div>
                 <div class="fav">
                   <div class="fav">
                     <a href="#" class="fav-a">Add to card</a>
                     <div>
-                      <a href="#"><i class="fa-regular fa-heart fav-i"></i></a>
+                      <a href="#"
+                        ><i
+                          class="fa-regular fa-heart fav-i cart-button"
+                          data-product-id="productContainer2"
+                        ></i
+                      ></a>
                       <a href="#"><i class="fa-solid fa-maximize fav-i"></i></a>
                     </div>
                   </div>
@@ -516,22 +533,26 @@
               </div>
               <div>
                 <h5><a href="#">Another Chair</a></h5>
-                <p>$40.00</p>
+                <p class="price">$40.00</p>
               </div>
             </div>
-
-            <div class="items">
+            <div class="items" data-id="4">
               <div class="product-image">
                 <div class="red-chair">
                   <img
-                  src="https://d19m59y37dris4.cloudfront.net/varkala/1-2-1/img/product/chair3.jpg"
-                />
+                    src="https://d19m59y37dris4.cloudfront.net/varkala/1-2-1/img/product/chair3.jpg"
+                  />
                 </div>
                 <div class="fav">
                   <div class="fav">
                     <a href="#" class="fav-a">Add to card</a>
                     <div>
-                      <a href="#"><i class="fa-regular fa-heart fav-i"></i></a>
+                      <a href="#"
+                        ><i
+                          class="fa-regular fa-heart fav-i cart-button"
+                          data-product-id="productContainer2"
+                        ></i
+                      ></a>
                       <a href="#"><i class="fa-solid fa-maximize fav-i"></i></a>
                     </div>
                   </div>
@@ -539,94 +560,117 @@
               </div>
               <div>
                 <h5><a href="#">Your new chair</a></h5>
-                <p>$40.00</p>
+                <p class="price">$40.00</p>
               </div>
             </div>
+                    
           </div>
-
-          <div class="offers">
-            <div class="items">
+          <div id="productContainer1" class="offers">
+            <div class="items" data-id="5">
               <div class="product-image">
+                <div id="label1" class="label">Fresh</div>
                 <div class="clock">
                   <img
-                  src="https://demo.bootstrapious.com/varkala/1-2-1/img/product/clock.jpg"
-                />
+                    src="https://demo.bootstrapious.com/varkala/1-2-1/img/product/clock.jpg"
+                  />
                 </div>
                 <div class="fav">
-                  <a href="#" class="fav-a">Add to card</a>
+                  <a href="#" class="fav-a">Add to cart</a>
                   <div>
-                    <a href="#"><i class="fa-regular fa-heart fav-i"></i></a>
+                    <a href="#"
+                      ><i
+                        class="fa-regular fa-heart fav-i cart-button"
+                        data-product-id="productContainer1"
+                      ></i
+                    ></a>
                     <a href="#"><i class="fa-solid fa-maximize fav-i"></i></a>
                   </div>
                 </div>
               </div>
               <div>
-                <h5><a href="#">Clock</a></h3>
-                <p>$40.00</p>
+                <h5><a href="#">Norwegian Chair</a></h5>
+                <p class="price">$40.00</p>
               </div>
             </div>
-
-            <div class="items">
+            <div class="items" data-id="6">
               <div class="product-image">
                 <div class="yellow-clock">
                   <img
-                  src="https://demo.bootstrapious.com/varkala/1-2-1/img/product/clock3.jpg"
-                />
+                    src="https://demo.bootstrapious.com/varkala/1-2-1/img/product/clock3.jpg"
+                  />
                 </div>
                 <div class="fav">
-                  <a href="#" class="fav-a">Add to card</a>
-                  <div>
-                    <a href="#"><i class="fa-regular fa-heart fav-i"></i></a>
-                    <a href="#"><i class="fa-solid fa-maximize fav-i"></i></a>
+                  <div class="fav">
+                    <a href="#" class="fav-a">Add to card</a>
+                    <div>
+                      <a href="#"
+                        ><i
+                          class="fa-regular fa-heart fav-i cart-button"
+                          data-product-id="productContainer2"
+                        ></i
+                      ></a>
+                      <a href="#"><i class="fa-solid fa-maximize fav-i"></i></a>
+                    </div>
                   </div>
                 </div>
               </div>
               <div>
-                <h5><a href="#">Clock</a></h5>
-                <p>$40.00</p>
+                <h5><a href="#">Book</a></h5>
+                <p class="price">$40.00</p>
               </div>
             </div>
-
-            <div class="items">
+            <div class="items" data-id="7">
               <div class="product-image">
-                <div id="Sold-out" class="label">Sold out</div>
                 <div class="yellow-box">
                   <img
-                  src="https://demo.bootstrapious.com/varkala/1-2-1/img/product/box.jpg"
-                />
+                    src="https://demo.bootstrapious.com/varkala/1-2-1/img/product/box.jpg"
+                  />
                 </div>
                 <div class="fav">
-                  <a href="#" class="fav-a">Add to card</a>
-                  <div>
-                    <a href="#"><i class="fa-regular fa-heart fav-i"></i></a>
-                    <a href="#"><i class="fa-solid fa-maximize fav-i"></i></a>
+                  <div class="fav">
+                    <a href="#" class="fav-a">Add to card</a>
+                    <div>
+                      <a href="#"
+                        ><i
+                          class="fa-regular fa-heart fav-i cart-button"
+                          data-product-id="productContainer2"
+                        ></i
+                      ></a>
+                      <a href="#"><i class="fa-solid fa-maximize fav-i"></i></a>
+                    </div>
                   </div>
                 </div>
               </div>
               <div>
-                <h5><a href="#">Accessory box</a></h5>
-                <p>$40.00</p>
+                <h5><a href="#">Another Chair</a></h5>
+                <p class="price">$40.00</p>
               </div>
             </div>
-
-            <div class="items">
+            <div class="items" data-id="8">
               <div class="product-image">
                 <div class="gray-box">
                   <img
-                  src="https://demo.bootstrapious.com/varkala/1-2-1/img/product/box2.jpg"
-                />
+                    src="https://demo.bootstrapious.com/varkala/1-2-1/img/product/box2.jpg"
+                  />
                 </div>
                 <div class="fav">
-                  <a href="#" class="fav-a">Add to card</a>
-                  <div>
-                    <a href="#"><i class="fa-regular fa-heart fav-i"></i></a>
-                    <a href="#"><i class="fa-solid fa-maximize fav-i"></i></a>
+                  <div class="fav">
+                    <a href="#" class="fav-a">Add to card</a>
+                    <div>
+                      <a href="#"
+                        ><i
+                          class="fa-regular fa-heart fav-i cart-button"
+                          data-product-id="productContainer2"
+                        ></i
+                      ></a>
+                      <a href="#"><i class="fa-solid fa-maximize fav-i"></i></a>
+                    </div>
                   </div>
                 </div>
               </div>
               <div>
-                <h5><a href="#">Beige</a></h5>
-                <p>$40.00</p>
+                <h5><a href="#">Your new chair</a></h5>
+                <p class="price">$40.00</p>
               </div>
             </div>
           </div>
@@ -754,54 +798,106 @@
     <script src="index.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/@glidejs/glide"></script>
     <script>
-      document.addEventListener('DOMContentLoaded', function () {
-          var glide = new Glide('.glide', {
-              type: 'carousel',
-              startAt: 0,
-              autoplay: 5000,
-              rewind: true,
-          }).mount();
+      document.addEventListener("DOMContentLoaded", function () {
+        var glide = new Glide(".glide", {
+          type: "carousel",
+          startAt: 0,
+          autoplay: 5000,
+          rewind: true,
+        }).mount();
 
-          function switchImage(dot) {
-              var index = dot.getAttribute('attr');
-              glide.go({index});
-          }
+        function switchImage(dot) {
+          var index = dot.getAttribute("attr");
+          glide.go({ index });
+        }
 
-          var dots = document.querySelectorAll('.dot');
-          dots.forEach(function (dot) {
-              dot.addEventListener('click', function () {
-                  glide.pause();
-                  switchImage(this);
-              });
+        var dots = document.querySelectorAll(".dot");
+        dots.forEach(function (dot) {
+          dot.addEventListener("click", function () {
+            glide.pause();
+            switchImage(this);
           });
+        });
 
-          glide.on(['run'], function () {
-              var currentIndex = glide.index;
-              dots.forEach(function (dot, index) {
-                  dot.classList.remove('active');
-                  if (index === currentIndex) {
-                      dot.classList.add('active');
-                  }
-              });
+        glide.on(["run"], function () {
+          var currentIndex = glide.index;
+          dots.forEach(function (dot, index) {
+            dot.classList.remove("active");
+            if (index === currentIndex) {
+              dot.classList.add("active");
+            }
           });
+        });
 
-          glide.on(['swipe.start'], function () {
-              glide.pause();
-          });
+        glide.on(["swipe.start"], function () {
+          glide.pause();
+        });
 
-          glide.on(['swipe.end'], function () {
-              glide.play();
-          });
+        glide.on(["swipe.end"], function () {
+          glide.play();
+        });
       });
     </script>
     <script>
       function openNav() {
-          document.getElementById("sidebar").style.width = "40%";
+        document.getElementById("sidebar").style.width = "40%";
       }
 
       function closeNav() {
-          document.getElementById("sidebar").style.width = "0";
+        document.getElementById("sidebar").style.width = "0";
       }
+    </script>
+    <script>
+      
+      
+      let addToCartBtns = document.querySelectorAll(".cart-button");
+      let basketCount = document.getElementById("basketCount");
+      addToCartBtns.forEach((btn) => {
+        btn.addEventListener("click", function (e) {
+          e.preventDefault();
+          let id = btn.closest(".items").getAttribute("data-id");
+
+          if (localStorage.getItem("basket") == null) {
+            localStorage.setItem("basket", JSON.stringify([]));
+          }
+          let arr = JSON.parse(localStorage.getItem("basket"));
+          let exisProduct = arr.find((pro) => pro.id == id);
+          if (exisProduct == undefined) {
+            arr.push({
+              id: id,
+              imgUrl: btn
+                .closest(".items")
+                .querySelector("img")
+                .getAttribute("src"),
+              name: btn.closest(".items").querySelector("h5").innerText,
+              price: btn.closest(".items").querySelector(".price").innerText,
+              count: 1,
+            });
+          } else {
+            exisProduct.count++;
+          }
+
+          localStorage.setItem("basket", JSON.stringify(arr));
+          CalcBasketCount();
+        });
+      });
+
+      function CalcBasketCount() {
+        if (localStorage.getItem("basket") != null) {
+          let uniqueItems = new Set();
+          let arr = JSON.parse(localStorage.getItem("basket"));
+
+          arr.forEach((item) => {
+            uniqueItems.add(item.id);
+          });
+
+          let sum = uniqueItems.size;
+
+          basketCount.innerText = sum;
+        }
+      }
+
+      CalcBasketCount();
     </script>
   </body>
 </html>
